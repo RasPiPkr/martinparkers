@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Martin Parker Raspberry Pi Site">
+		<meta name="author" content="Martin Parker">
+		<meta name="keywords" content="martin parker, raspberry pi">
+		<link rel="stylesheet" type="text/css" href="blogs.css" />
+	</head>
+	<body>
+		<!--<img id="bbg" src="./img/keys.png">
+		<img id="bbg" src="./img/keys.png">-->
+		<header>
+			<h1>Martin Parker</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="pi.html">Raspberry Pi</a></li>
+					<li><a href="https://github.com/RasPiPkr" target="_blank">GitHub</a></li>
+					<li class="current"><a href="blog.html">Blog</a>
+						<ul>
+							<li><a href="10.html">Latest</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div id="nbmain">
+			<div id="blogtitle">
+				<h2>Upcycled 1970's CameraPi</h2>
+			</div>
+			<div id="blogpostmain">
+				<div class="showmain">
+					<img id="showcase" src="./img/10/front.jpg" title="5MP Retro Digital Camera, WiFi enabled for live emailing pictures or easy remote access of pictures.">
+					<p id="showtext">I found the camera roughly 5 years ago at a car boot sale and I only picked it up as our daughter was studying photographic journalism. 
+					I only got it in jest for our daughter and it didn’t cost me anything as it was in a box marked free stuff to a good home.<br><br>In November 2018 I had been 
+					working on a SecuriPi which was a Raspberry Pi Zero W inside a standard household alarm PIR using a PIR module and a 5MP camera. I used the GPIO’s of the 
+					Pi for feedback from the PIR, as a zone for the alarm system, when alarm triggered to then start video recording and also to trigger a 3 colour LED for 
+					status etc. The lens didn’t give a full enough view of my lounge and so although it was a good project I took it down and put the modified PIR into the 
+					garage.<br><br>Whilst putting the modified PIR in my garage I saw the old camera and thought that the camera might fit inside but could I fit a Raspberry 
+					Pi in it? I took the camera apart carefully so I could keep the front metal decal in tact and also keep the use of the viewfinder. I positioned a tactile 
+					push button so I could use the original button to take the pictures. It was tight and I mean very tight to fit it all in, considering there is a LiPo 
+					Battery, charge circuit pcb, 5MP camera, power switch and the Raspberry Pi Zero W.<br>All crammed into where the film went with internal dimensions of
+					(w)85 x (h)25 x (d)36mm. It was a tricky task soldering the very short wires in a tight area. It’s a shame but I couldn’t keep the clicking of the winding 
+					wheel, the mechanism was on the bottom that did the clicking via a shaft.<br><br>USAGE: Turn on the power switch and give it 1-2 mins to fully 
+					boot up. Press and release the green capture button to take a picture. If the camera is connected via WIFI to my home router or if I turn my iPhone on as
+					a hotspot whilst out and about the picture will be emailed to a set email address but the Python script could be changed to send to a social media site. 
+					If the email is successful the picture will then be deleted to save storage space, if email fails to send then it will not be deleted. When I’m home I 
+					just turn it on and remotely connect to get the pictures and delete, easy peasy. As the only button is the green capture button, I put in the code 
+					the procedure to hold the button for 5+ seconds to initiate the shutdown process and when the Pi’s LED turns off then the power switch can be turned off.</p>
+				</div>
+				<div class="show2nd">
+					<p>Mouse over the pictures below for more information</p>
+					<div class="gallery">
+						<img src="./img/10/rear.JPG" title="5MP Retro Digital Camera, WiFi enabled for live emailing pictures or easy remote access of pictures.">
+						<img src="./img/10/rearOpen.JPG" title="Slide open the rear to gain access to the Raspberry Pi Zero W connections, power and charge point.">
+						<img src="./img/10/rearParts.JPG" title="All these parts in there including the 5MP camera, Wowzers.">
+						<img src="./img/10/5.png" title="A CameraPi picture taken at the zoo at Lotherton Hall, Leeds.">
+						<img src="./img/10/viewfinder.JPG" title="Viewfinder for perfect shot">
+						<img src="./img/10/6.png" title="A CameraPi picture taken at the zoo at Lotherton Hall, Leeds.">
+						<br><br>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<h6 id="info">I do all my own stunts and images on this website</h6>
+			<h3>Martin Parker &copy; September 2019</h3>
+		</footer>
+	</body>
+</html>

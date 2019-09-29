@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Martin Parker Raspberry Pi Site">
+		<meta name="author" content="Martin Parker">
+		<meta name="keywords" content="martin parker, raspberry pi">
+		<link rel="stylesheet" type="text/css" href="blogs.css" />
+	</head>
+	<body>
+		<!--<img id="bbg" src="./img/keys.png">
+		<img id="bbg" src="./img/keys.png">
+		<img id="bbg" src="./img/keys.png">-->
+		<header>
+			<h1>Martin Parker</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="pi.html">Raspberry Pi</a></li>
+					<li><a href="https://github.com/RasPiPkr" target="_blank">GitHub</a></li>
+					<li class="current"><a href="blog.html">Blog</a>
+						<ul>
+							<li><a href="10.html">Latest</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div id="nbmain">
+			<div id="blogtitle">
+				<h2>Easy Timer</h2>
+			</div>
+			<div id="blogpostmain">
+				<div class="showmain">
+					<img id="showcase" src="./img/5/easyexecutable.png" title="The example.py output from what you entered is created and made executable.">
+					<p id="showtext">I came up with the idea for this project to help someone at work to trigger GPIO outputs wired to relays to switch on 
+					Christmas Lights but it could be used for a timer of anything. He didn't know how to code and so I made this program that would create 
+					another Python script that would run once, loop so many times or keep looping.<br><br>Easy Timer would simply ask some questions for the 
+					initial setup like output filename, loop options and polarity. All you needed to do was figure out all your steps as in the flow of GPIO's 
+					on or off and for how long.<br><br>You would enter how many steps you needed and then start inputing which GPIO on/off and delay time seconds / 
+					milliseconds per step. When completed you would be prompted on how to run your script and it will do exactly how you programmed it.<br><br>
+					I think it's a great little program to assist anyone who's not confident in coding but can then look at the output file to get an 
+					understanding on how to implement into their own code.<br><br></p>
+				</div>
+				<div class="show2nd">
+					<p>The pictures below show the whole process and we do 3 steps.<br>Mouse over the pictures below for more information</p>
+					<div class="gallery">
+						<img src="./img/5/easyfilename.png" title="When you first start the Easy Timer your prompted for the output filename.">
+						<img src="./img/5/easydisclaimer.png" title="This is nothing to worry about, read it and understand procedure.">
+						<img src="./img/5/easyinstructions.png" title="Explaining the instructions and setup loop options.">
+						<img src="./img/5/easytrigger.png" title="Setup polarity of the triggered GPIO's.">
+						<img src="./img/5/easysteps.png" title="Setup how many steps to take as part of your timer.">
+						<img src="./img/5/easystep1bcm.png" title="All the configuration is done. We entered to do 3 steps for this example, requesting the BCM GPIO number for step 1.">
+						<img src="./img/5/easystep1delay.png" title="Requesting the delay time for step 1.">
+						<img src="./img/5/easystep2bcm.png" title="Notice we entered 0.5 for half a second, requesting the BCM GPIO for step 2.">
+						<img src="./img/5/easystep2delay.png" title="Notice we entered more than 1 GPIO for this step, requesting the delay time for step 2.">
+						<img src="./img/5/easystep3bcm.png" title="Requesting the BCM GPIO for step 3.">
+						<img src="./img/5/easystep3delay.png" title="Notice we entered 0 to turn all GPIO's off, requesting the delay time for step 3.">
+						<img src="./img/5/easycreated.png" title="All the steps have been entered and now the output file has been created.">
+						<img src="./img/5/easyexecutable.png" title="The example.py output from what you entered is created and made executable.">
+						<img src="./img/5/easypython.png" title="This is some of the Python script created by the Easy Timer.">
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<h6 id="info">I do all my own stunts and images on this website</h6>
+			<h3>Martin Parker &copy; September 2019</h3>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,340 @@
+/* Global Setup */
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+	background-color: #808080;
+	max-width: 100%;
+}
+
+/* Backgrounds */
+/* Index Background */
+#ibg {
+	position: relative;
+	top: 0;
+	width: 100%;
+}
+
+/* About Background */
+#abg {
+	float: left;
+	max-width: 25%;
+	display: inline-block;
+	margin-right: 20px;
+	border: 3px solid #404040;
+	border-radius: 30px;
+}
+
+/* Contact Background */
+#cbg {
+	max-width: 100%;
+}
+
+/* Raspberry Background */
+#pbg {
+	max-width: 100%;
+}
+
+/* Codes Background */
+#cobg {
+	max-width: 100%;	
+}
+
+/* Header */
+header {
+	float: left;
+	width: 100%;
+}
+
+h1 {
+	display: block;
+	position: relative;
+	background-color: #6cc04a;
+	margin: 0;
+	text-align: center;
+	font-size: 7vw;
+	color: #404040;
+}
+
+/* Media Setup */
+/*@media screen and (min-width: 564px){
+	#imain p {
+		font-size: 13px;
+		top: 30%;
+	}
+	#imain h5 {
+		bottom: 35%;
+	}
+	#amain p {
+		font-size: 13px;
+		top: 35%;
+		line-height: 20px;
+	}
+	#cmain p {
+		font-size: 13px;
+		top: 30%;
+	}
+	#cmain img {
+		top: 35%;
+		width: 10%;
+		left: 45%;
+	}
+	#cmain h5 {
+		top: 57%;
+	}
+	#pmain {
+		top: 30%;
+		left: 5%;
+	}
+	#pmain p {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	#pmain .jamlogo h5 {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	#cotop {
+		font-size: 13px;
+		left: 0%;
+	}
+}
+
+@media screen and (max-width: 564px){
+	#imain p {
+		font-size: 7px;
+		top: 15%;
+	}
+	#imain h5 {
+		bottom: 20%;
+	}
+	#amain p {
+		font-size: 7px;
+		top: 20%;
+		line-height:10px;
+	}
+	#cmain p {
+		font-size: 7px;
+		top: 15%;
+	}
+	#cmain img {
+		top: 17%;
+		width: 10%;
+		left: 45%;
+	}
+	#cmain h5 {
+		font-size: 7px;
+		top: 24%;
+	}
+	#pmain {
+		top: 10%;
+		left: 5%;
+	}
+	#pmain p {
+		font-size: 7px;
+		line-height: 10px;
+	}
+	#pmain .jamlogo h5 {
+		font-size: 7px;
+		line-height: 10px;
+	}
+	#cotop {
+		font-size: 7px;
+		top: 20%;
+	}
+}
+*/
+/* Navigation */
+nav {
+	opacity: 0.7;
+}
+
+ul {
+	width: 100%;
+	float: left;
+	text-transform: uppercase;
+}
+
+ul li {
+	width: 16.6666%;
+	height: 3vw;
+	line-height: 3vw;
+	font-size: 1.5vw;
+	list-style: none;
+	float: left;
+	background-color: #404040;
+	text-align: center;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.current a {
+	background-color: purple;
+}
+
+ul li a:hover {
+	background-color: purple;
+}
+
+ul li ul li {
+	display: none;
+}
+
+ul li:hover ul li {
+	display: block;
+	width: 100%;
+}
+
+/* Main Content */
+/* Index */
+#imain p {
+	top: 0;
+	padding-top: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 20%;
+	text-align: center;
+	font-size: 2vw;
+}
+
+/* About */
+#amain {
+	float: left;
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	max-height: 100%;
+	background-color: #808080;
+}
+
+#atext {
+	display: inline;
+	color: white;
+	font-size: 2vw;
+	padding-bottom: 50px;
+}
+
+/* Contact */
+#cmain {
+	float: left;
+	width: 100%;
+	padding-top: 5%;
+	height: 500px;
+}
+
+.ctext {
+	text-align: center;
+	font-size: 2vw;
+	text-decoration: none;
+}
+
+#ctwit {
+	display: block;
+	padding-top: 5%;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cmain h5 {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	text-align: center;
+}
+
+/* Pi */
+#pmain {
+	float: left;
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.pipic {
+	position: relative;
+	max-width: 40%;
+	height: auto;
+	border: 3px solid #404040;
+	border-radius: 30px;
+	float: left;
+	margin-right: 20px;
+	background: DarkGray;
+}	
+
+#pmain p {
+	position: relative;
+	display: inline;
+	font-size: 3vh;
+}
+
+.logos {
+	position: relative;
+	margin-top: 50px;
+}
+
+.logos a {
+	text-decoration: none;
+}
+
+.pilogo {
+	max-width: 15%;
+	float: left;
+	margin-left: 5%;
+}
+
+.pilogo img {
+	max-width: 100%;
+	height: auto;
+}
+
+.jamlogo {
+	margin-right: 10%;
+	float: right;
+	display: inline;
+	max-width: 15%;
+}
+
+.jamlogo h5 {
+	margin: 0 0 20px 0;
+	text-align: center;
+	max-width: 100%;
+	font-size: 70%
+}
+
+.jamlogo img {
+	margin-top: 10px;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Footer */
+footer {
+	border-top: 3px solid purple;
+	float: left;
+	width: 100%;
+	background-color: #6cc04a;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#info {	
+	color: #404040;
+	text-align: center;
+	font-size: 1vw;
+}
+
+h3 {
+	text-align: center;
+	color: #404040;
+	font-size: 2vw;
+}

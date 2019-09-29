@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Martin Parker Raspberry Pi Site">
+		<meta name="author" content="Martin Parker">
+		<meta name="keywords" content="martin parker, raspberry pi">
+		<link rel="stylesheet" type="text/css" href="blogs.css" />
+	</head>
+	<body>
+		<!--<img id="bbg" src="./img/keys.png">
+		<img id="bbg" src="./img/keys.png">-->
+		<header>
+			<h1>Martin Parker</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="pi.html">Raspberry Pi</a></li>
+					<li><a href="https://github.com/RasPiPkr" target="_blank">GitHub</a></li>
+					<li class="current"><a href="blog.html">Blog</a>
+						<ul>
+							<li><a href="10.html">Latest</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div id="nbmain">
+			<div id="blogtitle">
+				<h2>Shoot'em Up Gun Controller</h2>
+			</div>
+			<div id="blogpostmain">
+				<div class="showmain">
+					<img id="showcase" src="./img/8/main.jpg" title="Shoot'em Up Gun for PyGame projects playing over network.">
+					<p id="showtext">I've made a few little games using PyGame and I recently made a networked stock system server and client software, so I thought I 
+						could make a controller that could control a game over my local network. I did plan on making a rifle but due to what materials I had at the 
+						time I'd start with a hand gun.<br><br>I first cut out 2 hand gun like shapes from a sheet of 5mm clear acrylic keeping it wide enough for the 
+						Raspberry Pi Zero W etc. I attached them together using some masking tape and positioned the Pi Zero, charge circuit, LiPo battery and a MPU6050 
+						board (3 axis Gyroscope & 3 axis Accelerometer).<br><br>I marked on the masking tape their positions and the mounting holes, wiring feed through holes, 
+						and as the LiPo battery was going to be inside the handle so I marked the corners of the rectangle shape. I drilled out the holes and corners of 
+						the LiPo with a bigger holes so I jigsaw the straight edges. I used some sandpaper to tidy up the acrylic edges and then sprayed with matt black 
+						paint the 2 facing sides of the acrylic. When dry I put the 2 black sides together and fitted the PCB's and started on the wiring between the 
+						PCB's.<br><br>I used 2 recycled 2 colour (red and blue) LED's to show which controller your using, connected to the server game and blink once when shooting. 
+						It would of been easier to fit the LED's having the Pi Zero not on the gun but I managed all the same. </p>
+				</div>
+				<div class="show2nd">
+					<p>Mouse over the pictures below for more information</p>
+					<div class="gallery">
+						<img src="./img/8/zero.jpg" title="Raspberry Pi Zero W with 2 recycled 2 colour surface LED's and very short wiring for neatness.">
+						<img src="./img/8/trigger.jpg" title="Top left PCB is LiPo charge circuit, middle PCB is MPU6050 and top right is the Pi Zero with access to the 
+							sd card. Under the charge circuit is the LiPo battery and to the right of that is the trigger switch.">
+						<img src="./img/8/power.jpg" title="Underneath the LiPo battery is the power switch">
+						<img src="./img/8/left.jpg" title="Left side of the gun showing the LiPo battery and wiring that runs from one side to the other to keep wiring 
+							in place rather than being glued.">
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<h6 id="info">I do all my own stunts and images on this website</h6>
+			<h3>Martin Parker &copy; September 2019</h3>
+		</footer>
+	</body>
+</html>

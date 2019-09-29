@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Martin Parker Raspberry Pi Site">
+		<meta name="author" content="Martin Parker">
+		<meta name="keywords" content="martin parker, raspberry pi">
+		<link rel="stylesheet" type="text/css" href="blogs.css" />
+	</head>
+	<body>
+		<!--<img id="bbg" src="./img/keys.png">
+		<img id="bbg" src="./img/keys.png">
+		<img id="bbg" src="./img/keys.png">-->
+		<header>
+			<h1>Martin Parker</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="pi.html">Raspberry Pi</a></li>
+					<li><a href="https://github.com/RasPiPkr" target="_blank">GitHub</a></li>
+					<li class="current"><a href="blog.html">Blog</a>
+						<ul>
+							<li><a href="10.html">Latest</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div id="nbmain">
+			<div id="blogtitle">
+				<h2>5MP Camera / Alarm PIR<br>SecuriPi</h2>
+			</div>
+			<div id="blogpostmain">
+				<div class="showmain">
+					<img id="showcase" src="./img/3/main.jpg" title="SecuriPi - 5MP Camera / Alarm PIR.">
+					<p id="showtext">I used to be a alarm engineer and with over 20 years experience it only seemed fit that I should do something as a security project. 
+					I bought a brand new Texecom Reflex PIR as it's what my other PIR's are and they are a standard size.<br><br>I took all the parts out as I was only 
+					needing the body of it. There was a plastic spacing part that sat against the PIR pcb to stop any insects etc. getting into the lens part making it a 
+					sealed optics. I modified the spacer to accommodate for the use of a PIR module after removing the circular lens, I also put in place a 3 colour LED for 
+					visual notification of trigger just like any standard PIR.<br>I sealed up around the PIR module and LED to regain it's sealed optics to lower risk of 
+					false alarms. I drilled a hole wide enough for the 5MP camera lens and tapered the outside edge to make it look better, I sealed around the camera to 
+					hold it in place. I soldered up the LED with resistors, wires for the PIR module and soldered onto the GPIO's of a Raspberry Pi Zero W. I made it so you 
+					fit the back plate, secure the Pi board and then attach the camera onto the Zero W to fit the front cover.<br><br>I connected the power to my alarm 
+					system via the use of a voltage stepdown board from the 12v to 5v, and wired into the zone and to get the alarm trigger output. The Raspberry Pi would 
+					receive the trigger via a GPIO and the Python script would run a function to take a picture then start recording video if the the PIR module also was 
+					triggered. An email would also be sent giving notification of the alarm trigger with a picture. The 3 colour LED showed green for picture capture, 
+					red for recording and blue would blink to show script running.<br><br>I had it in place for a few weeks but I decided to take it down only for the fact 
+					that the camera lens wasn't wide enough to show the full width of my lounge. As this was a mini camera module I'm not sure if the lens could be replaced 
+					or it might look too big as I thought it looked perfect as it was but sadly picture coverage.<br><br>It was a good project to do even if it's still not in 
+					place but it's the experience and knowledge I've gained.</p>
+				</div>
+				<div class="show2nd">
+					<p>Mouse over the pictures below for more information</p>
+					<div class="gallery">
+						<img src="./img/3/parts.jpg" title="5MP Mini Camera, PIR Module, Texecom Reflex PIR and Raspberry Pi Zero W.">
+						<img src="./img/3/parts2.jpg" title="Opened the PIR.">
+						<img src="./img/3/pir.jpg" title="PIR open showing internals and front cover.">
+						<img src="./img/3/pir2.jpg" title="PIR open showing internals and front cover inside.">
+						<img src="./img/3/pir3.jpg" title="PIR back and pcb.">
+						<img src="./img/3/lens.jpg" title="PIR front cover, lens and sealing spacer.">
+						<img src="./img/3/module.jpg" title="PIR module without the circular lens.">
+						<img src="./img/3/camera.jpg" title="Camera attached on fron cover.">
+						<img src="./img/3/sealed.jpg" title="PIR module in place with LED tube to stop filling the lens with colour.">
+						<img src="./img/3/sealed2.jpg" title="Lens on front cover with optics unclipped.">
+						<img src="./img/3/sealed3.jpg" title="Optics on front cover with without lens in place.">
+						<img src="./img/3/soldered.jpg" title="PIR module and LED soldered and heat shrink to protect resistors etc.">
+						<img src="./img/3/ready.jpg" title="All wire soldered on the Raspberry Pi Zero W and ready for installation.">
+						<img src="./img/3/installed.jpg" title="Installed, connected and working.">
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<h6 id="info">All images featured on this website are of my own</h6>
+			<h3>Martin Parker &copy; August 2018</h3>
+		</footer>
+	</body>
+</html>

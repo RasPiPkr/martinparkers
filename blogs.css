@@ -1,0 +1,218 @@
+/* Global Setup */
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+	background-color: #808080;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* Blogs Background */
+#bbg {
+	max-width: 100%;
+}
+
+/* Header */
+header {
+	float: left;
+	width: 100%;
+}
+
+h1 {
+	display: block;
+	position: relative;
+	background-color: #6cc04a;
+	margin: 0;
+	text-align: center;
+	font-size: 7vw;
+	color: #404040;
+}
+
+/* Navigation */
+nav {
+	opacity: 0.7;
+}
+
+ul {
+	text-transform: uppercase;
+	float: left;
+	width: 100%;
+}
+
+ul li {
+	width: 16.6666%;
+	height: 3vw;
+	line-height: 3vw;
+	font-size: 1.5vw;
+	list-style: none;
+	float: left;
+	background-color: #404040;
+	text-align: center;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.current a {
+	background-color: purple;
+}
+
+ul li a:hover {
+	background-color: purple;
+}
+
+ul li ul li {
+	display: none;
+}
+
+ul li:hover ul li {
+	display: block;
+	width: 100%;
+}
+
+/* Main List */
+#bmain {
+	padding-top: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
+	max-height: 100%;
+}
+
+#blogtop h2 {
+	text-align: center;
+	font-size: 10vh;
+	color: #6cc04a;
+}
+
+.blogsarea {
+	width: 100%;
+}
+
+.postarea {
+	position: relative;
+	float: center;
+	height: 30vh;
+	width: 100%;
+	background-color: #404040;
+}
+
+.postarea img {
+	float: left;
+	left: 50px;
+	height: 30vh;
+	margin-right: 20px;
+}
+
+.postarea h3 {
+	text-align: center;
+	font-size: 7vh;
+	color: white;
+	float: below;
+	padding-bottom: 20px;
+}
+
+.postarea p {
+	text-align: left;
+	font-size: 3vh;
+	float: below;
+}
+
+.postarea h5 {
+	float: left;
+	font-size: 3vh;
+}
+
+#bmain .spacer {
+	position: relative;
+	float: center;
+	margin: 25px 100px 25px 100px;
+	border-top: 10px solid #6cc04a;
+}
+
+/* Per Blog */
+#nbmain {
+	float: left;
+	padding-top: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
+	max-height: 100%;
+}
+
+#blogtitle {
+	text-align: center;
+	font-size: 4vw;
+}
+
+#blogpostmain {
+	width: 100%;
+}
+
+.check {
+	display: block;
+	width: 100%;
+}
+
+#showcase {
+	float: left;
+	max-width: 50%;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#showtext {
+	display: inline;
+	color: white;
+	font-size: 2vw;
+}
+.show2nd {
+	display: inline-block;
+}
+
+.show2nd p {
+	margin-top: 20px;
+	font-size: 2vw;
+	text-align: center;
+	background-color: #404040;
+}
+
+.gallery {
+	width: 100%;
+}
+
+.gallery img {
+	width: 28vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	margin-top: 1vw;
+}
+
+/* Footer */
+footer {
+	border-top: 3px solid purple;
+	float: left;
+	width: 100%;
+	background-color: #6cc04a;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#info {	
+	color: #404040;
+	text-align: center;
+	font-size: 1vw;
+}
+
+h3 {
+	text-align: center;
+	color: #404040;
+	font-size: 2vw;
+}
