@@ -13,6 +13,100 @@ body {
 	max-height: 100%;
 }
 
+/* Media Setup */
+/*@media screen and (min-width: 564px){
+	#imain p {
+		font-size: 13px;
+		top: 30%;
+	}
+	#imain h5 {
+		bottom: 35%;
+	}
+	#amain p {
+		font-size: 13px;
+		top: 35%;
+		line-height: 20px;
+	}
+	#cmain p {
+		font-size: 13px;
+		top: 30%;
+	}
+	#cmain img {
+		top: 35%;
+		width: 10%;
+		left: 45%;
+	}
+	#cmain h5 {
+		top: 57%;
+	}
+	#pmain {
+		top: 30%;
+		left: 5%;
+	}
+	#pmain p {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	#pmain .jamlogo h5 {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	#cotop {
+		font-size: 13px;
+		left: 0%;
+	}
+}
+
+@media screen and (max-width: 720px){
+	#imain p {
+		font-size: 7px;
+		top: 15%;
+	}
+	#imain h5 {
+		bottom: 20%;
+	}
+	#amain p {
+		font-size: 7px;
+		top: 20%;
+		line-height:10px;
+	}
+	#cmain p {
+		font-size: 7px;
+		top: 15%;
+	}
+	#cmain img {
+		top: 17%;
+		width: 10%;
+		left: 45%;
+	}
+	#cmain h5 {
+		font-size: 7px;
+		top: 24%;
+	}
+	#pmain {
+		top: 10%;
+		left: 5%;
+	}
+	#pmain p {
+		font-size: 7px;
+		line-height: 10px;
+	}
+	#pmain .jamlogo h5 {
+		font-size: 7px;
+		line-height: 10px;
+	}
+	#cotop {
+		font-size: 7px;
+		top: 20%;
+	}
+	.old h5 {
+		display: hidden;
+	}
+	.old p {
+		display: hidden;
+	}
+}*/
+
 /* Blogs Background */
 #bbg {
 	max-width: 100%;
@@ -81,54 +175,66 @@ ul li:hover ul li {
 
 /* Main List */
 #bmain {
-	padding-top: 2%;
-	padding-left: 3%;
-	padding-right: 3%;
-	max-height: 100%;
+	/*position: relative;*/
+	width: 100%;
+	/*left: 3%;
+	right: 3%;
+	padding-top: 1vh;
+	float: left;*/
 }
 
-#blogtop h2 {
+#blogstop {
+	width: 100%;
 	text-align: center;
-	font-size: 10vh;
+	font-size: 5vw;
 	color: #6cc04a;
 }
 
-.blogsarea {
-	width: 100%;
+a |{
+	text-decoration: none;
 }
 
 .postarea {
 	position: relative;
-	float: center;
-	height: 30vh;
-	width: 100%;
-	background-color: #404040;
-}
-
-.postarea img {
 	float: left;
-	left: 50px;
+	margin-left: 3%;
+	margin-right: 3%;
+	height: 15vw;
+	margin-bottom: 1%;
+	width: 94%;
+	background-color: #404040;
+	display: inline-block;
+}
+
+.blogspics {
+	width: auto;
+	height: 100%;
+	position: relative;
+	float: left;
+	/*left: 50px;
 	height: 30vh;
-	margin-right: 20px;
+	max-width: 30%;*/
 }
 
-.postarea h3 {
+.blogstitles {
+	/*position: relative;*/
+	display: block;
 	text-align: center;
-	font-size: 7vh;
+	font-size: 3vw;
 	color: white;
-	float: below;
-	padding-bottom: 20px;
+	width: 100%;
+	padding-bottom: 1%;
+	text-decoration: underline;
 }
 
-.postarea p {
-	text-align: left;
-	font-size: 3vh;
-	float: below;
+.blogtext {
+	text-align: center;
+	font-size: 2vw;
 }
 
 .postarea h5 {
 	float: left;
-	font-size: 3vh;
+	font-size: 1vw;
 }
 
 #bmain .spacer {
@@ -178,7 +284,8 @@ ul li:hover ul li {
 }
 
 .show2nd p {
-	margin-top: 20px;
+	margin-top: 2%;
+	margin-bottom: 2%;
 	font-size: 2vw;
 	text-align: center;
 	background-color: #404040;
@@ -189,10 +296,9 @@ ul li:hover ul li {
 }
 
 .gallery img {
-	width: 28vw;
-	margin-left: 1vw;
-	margin-right: 1vw;
-	margin-top: 1vw;
+	width: 30%;
+	margin-left: 2%;
+	margin-bottom: 2%;
 }
 
 /* Footer */
